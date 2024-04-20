@@ -8,7 +8,7 @@
     "run-script-os": "^1.0.2"
   },
   "scripts": {
-    "start": "run-script-os",
+    "start": "npm run start:win32",
   "start:win32": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 7777 --browser \"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --startPath /index.html",
 
     "//": "Hello! If you are having trouble running this command. Try changing Firefox Developer Edition to FirefoxDeveloperEdition",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nadunjayaweera/Yohan-Birthday.git"
+    "url": "git+https://github.com/faahim/happy-birthday.git"
   },
   "keywords": [
     "Happy",
@@ -26,8 +26,8 @@
   "author": "Afiur Rahman Fahim",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nadunjayaweera/Yohan-Birthday/issues"
+    "url": "https://github.com/faahim/happy-birthday/issues"
   },
-  "homepage": "https://github.com/nadunjayaweera/Yohan-Birthday#readme",
+  "homepage": "https://github.com/faahim/happy-birthday#readme",
   "dependencies": {}
 }
